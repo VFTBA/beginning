@@ -5,11 +5,11 @@ int main() {
 
 	if (n >= 1 && n <= 100) {
 		for (int i = 1; i <= n; i++) {
-			for (int j = n - i; j > 0; j--) {
+			for (int j = n; j < 2*n - i; j++) {
 				printf(" ");
 			}
 
-			for (int k = 0; k < 2*i - 1; k++) {
+			for (int k = 1; k <= 2*i - 1; k++) {
 				printf("*");
 			}
 
