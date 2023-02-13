@@ -21,17 +21,7 @@ int main() {
 
 	}
 
-	
-	average = total / 5;
-	printf("%d\n", average);
+    average = total / 5;
+    printf("%d\n", average);
 	printf("%d", n[2]);
-
-
-
-	
-	
-
-
-	
-
 }
