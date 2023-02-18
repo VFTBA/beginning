@@ -25,5 +25,7 @@ int main() {
 		for (int k = 1; k <= N; k++) {
 			printf("%d\n", array[k]);
 		}
+        
+        return 0;
 	}
 }
