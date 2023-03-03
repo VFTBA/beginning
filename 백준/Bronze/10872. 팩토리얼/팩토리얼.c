@@ -9,9 +9,7 @@ int main() {
 			factorial = factorial * i;
 		}
 
-		if (n == 0) {
-			factorial;
-		}
+	
 
 		printf("%d\n", factorial);
 	}
